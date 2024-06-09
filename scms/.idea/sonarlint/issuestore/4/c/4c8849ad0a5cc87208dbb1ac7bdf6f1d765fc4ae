@@ -1,0 +1,12 @@
+
+ž	cpp:S52765"Wimplicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'(–Å¢÷ýÿÿÿÿ8Í¤‡Ýÿ1J$7ab573fa-86ff-4644-a9a5-6fd7b11b0ca1
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "head" in an initialization list.(˜¥€·8­ŒóÛÿ1J$4b525cc6-4d09-428c-87af-fb70f66f6cc6
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "tail" in an initialization list.(¢ý²ˆ8­ŒóÛÿ1J$673df1a8-071e-43ee-a556-d5dca8acb8e8
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "size" in an initialization list.(õéžý8­ŒóÛÿ1J$9dcdc479-01b0-43f6-ac50-4c5813f4b2e9
+t	cpp:S1238"2Pass large object "student" by reference to const.(ðÈñ¿8á¼™Üÿ1J$3d57003f-71a0-4533-a751-f4525b6d9e00
+n	cpp:S5827"'Replace the redundant type with "auto".(çÀ‰Æÿÿÿÿÿ8þÃ•Üÿ1J$21492459-de92-4c28-93ea-12450d59ddbc
+˜	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(çÀ‰Æÿÿÿÿÿ8þÃ•Üÿ1J$54cc2246-8f52-45da-b84a-7f6b5cd4fcf3
+n	cpp:S58279"'Replace the redundant type with "auto".(‘Éäªüÿÿÿÿ8ã¤‡Ýÿ1J$7f35bd4b-355d-4e31-99be-31856fab5081
+k	cpp:S5817@")This function should be declared "const".(áàùÛ8Ù®àÝÿ1J$91d68cd5-1616-44e0-a596-1f350ebe254c
+{	cpp:S5025S":Rewrite the code so that you no longer need this "delete".( Ô·}8Ò—¬Þÿ1J$0c7b3aaa-a449-4c1e-82ea-35bc6477dd47
+{	cpp:S5025b":Rewrite the code so that you no longer need this "delete".( Ô·}8ùÃ­Þÿ1J$5d585089-e881-4018-8154-30bac3d21774

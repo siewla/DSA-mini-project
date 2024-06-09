@@ -67,8 +67,14 @@ build CMakeFiles/scms.dir/src/course.cpp.o: CXX_COMPILER__scms_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/scms.dir
   OBJECT_FILE_DIR = CMakeFiles/scms.dir/src
 
-build CMakeFiles/scms.dir/src/registration.cpp.o: CXX_COMPILER__scms_unscanned_Debug /Users/siewla/Desktop/DSA-mini-project/scms/src/registration.cpp || cmake_object_order_depends_target_scms
-  DEP_FILE = CMakeFiles/scms.dir/src/registration.cpp.o.d
+build CMakeFiles/scms.dir/src/studentList.cpp.o: CXX_COMPILER__scms_unscanned_Debug /Users/siewla/Desktop/DSA-mini-project/scms/src/studentList.cpp || cmake_object_order_depends_target_scms
+  DEP_FILE = CMakeFiles/scms.dir/src/studentList.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/scms.dir
+  OBJECT_FILE_DIR = CMakeFiles/scms.dir/src
+
+build CMakeFiles/scms.dir/src/courseList.cpp.o: CXX_COMPILER__scms_unscanned_Debug /Users/siewla/Desktop/DSA-mini-project/scms/src/courseList.cpp || cmake_object_order_depends_target_scms
+  DEP_FILE = CMakeFiles/scms.dir/src/courseList.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/scms.dir
   OBJECT_FILE_DIR = CMakeFiles/scms.dir/src
@@ -81,7 +87,7 @@ build CMakeFiles/scms.dir/src/registration.cpp.o: CXX_COMPILER__scms_unscanned_D
 #############################################
 # Link the executable scms
 
-build scms: CXX_EXECUTABLE_LINKER__scms_Debug CMakeFiles/scms.dir/main.cpp.o CMakeFiles/scms.dir/src/student.cpp.o CMakeFiles/scms.dir/src/course.cpp.o CMakeFiles/scms.dir/src/registration.cpp.o
+build scms: CXX_EXECUTABLE_LINKER__scms_Debug CMakeFiles/scms.dir/main.cpp.o CMakeFiles/scms.dir/src/student.cpp.o CMakeFiles/scms.dir/src/course.cpp.o CMakeFiles/scms.dir/src/studentList.cpp.o CMakeFiles/scms.dir/src/courseList.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   LINK_FLAGS = -L/opt/homebrew/opt/libpq/lib
   OBJECT_DIR = CMakeFiles/scms.dir

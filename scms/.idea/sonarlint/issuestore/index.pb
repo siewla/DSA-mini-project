@@ -11,3 +11,15 @@ B
 src/registration.h,6/8/6846bcc54810c8a11ed84fcc9984ecc47f53f879
 8
 main.cpp,6/8/682a50d19e416195436708e48c7761923b8d6651
+<
+src/course.h,9/d/9d4905edfe0f3ed3f476c5e15b45e02616fc7ff2
+>
+src/course.cpp,7/3/730365c0664729716ec2d435d0c030d6541e70a7
+C
+src/studentList.cpp,4/c/4c8849ad0a5cc87208dbb1ac7bdf6f1d765fc4ae
+A
+src/studentList.h,9/e/9e06e719504146f16c989596585d8febc3afe0aa
+@
+src/courseList.h,8/6/867ab7b1b947680a7cdcbb4fdf1ea3d55f7f2dad
+B
+src/courseList.cpp,7/4/749b820e460a9f74635c89b61fb716b6146e1aef

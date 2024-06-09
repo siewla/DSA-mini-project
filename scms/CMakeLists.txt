@@ -8,5 +8,8 @@ add_executable(scms main.cpp
         src/student.h
         src/course.cpp
         src/course.h
-        src/registration.cpp
-        src/registration.h)
+        src/studentList.cpp
+        src/studentList.h
+        src/courseList.cpp
+        src/courseList.h
+)

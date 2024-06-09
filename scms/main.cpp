@@ -1,14 +1,17 @@
 #include <iostream>
+#include "src/student.h"
+#include "src/course.h"
+#include "src/studentList.h"
+#include "src/courseList.h"
+#include <fstream>
 using std::cout;
 using std::endl;
 using std::cin;
 using std::string;
+using std::ifstream;
 
-int registerStudent() {
-    // get student name, id, and email
-    // create a student object
-
-    double studentId;
+void registerStudent(StudentList& studentList) {
+    int studentId;
     cout << "Enter student ID: ";
     cin >> studentId;
 
@@ -26,14 +29,12 @@ int registerStudent() {
     cout << "Student ID    : " << studentId << endl;
     cout << "Student Name  : " << studentName << endl;
     cout << "Student Email : " << studentEmail << endl;
-
+    Student newStudent(studentId, studentName, studentEmail);
+    studentList.addStudent(newStudent);
     cout << "Student has been registered successfully" << endl;
-    return 0;
 }
 
 int registerCourse() {
-    // get course name, code, number of slots and credit hours
-    // create a course object
     string courseName;
     cout << "Enter course name: ";
     cin.ignore();
@@ -58,11 +59,125 @@ int registerCourse() {
     cout << "Course Slots       : " << courseSlots << endl;
     cout << "Course Credit Hours: " << courseCreditHours << endl;
 
+    Course courseToSave(courseName, courseCode, courseSlots, courseCreditHours, StudentList(), StudentList());
+
     cout << "Course has been registered successfully" << endl;
     return 0;
 }
 
-int showMenu() {
+int printStudents(CourseList courseList) {
+    cout << "Enter course code to view students: ";
+    string courseCode;
+    cin.ignore();
+    // trim leading and trailing whitespaces
+    getline(cin, courseCode);
+    cout << "Course Code: " << courseCode << endl;
+    Course* course = courseList.findCourse(courseCode);
+    if (course != nullptr) {
+        int studentSize = course->getStudents().getSize();
+        if (studentSize == 0) {
+            cout << "No students enrolled in this course" << endl;
+        } else {
+            cout << "Students enrolled in this course: " << endl;
+            course->getStudents().printStudents();
+        }
+    } else {
+        cout << "Course not found" << endl;
+    }
+    return 0;
+}
+
+int showStudentsMenu (Course* course, StudentList& studentList, string type) {
+        cout << "1: Display current enrolled students" << endl;
+        cout << "2: Display students in waitlist" << endl;
+        if (type == "enroll") {
+            cout << "3: Enroll student by matrix number" << endl;
+        } else {
+            cout << "3: De-enroll student by matrix number" << endl;
+        }
+        cout << "4: Exit" << endl;
+
+        int choice;
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                cout << "Current Enrolled Students" << endl;
+                course->getStudents().printStudents();
+                return -1;
+            case 2:
+                cout << "Students in Waitlist" << endl;
+                course->getWaitlist().printStudents();
+                return -1;
+            case 3: {
+                cout << "Enter student matrix number: ";
+                int matrixNumber;
+                cin >> matrixNumber;
+                Student *student = studentList.getStudent(matrixNumber);
+                if (student == nullptr) {
+                    cout << "Student not found" << endl;
+                } else {
+                    if (type == "de-enroll") {
+                        course->dropStudent(matrixNumber);
+                        cout << "Student de-enrolled successfully" << endl;
+                    } else {
+                        course->enrollStudent(*student);
+                        cout << "Student enrolled successfully" << endl;
+                    }
+                }
+                return -1;
+            }
+            case 4:
+                cout << "Exit" << endl;
+                return 0;
+            default:
+                cout << "Invalid choice" << endl;
+                return -1;
+        }
+};
+
+int enrollStudent(StudentList& studentList, CourseList& courseList) {
+    courseList.printCourses();
+    cout << "Enter course code: ";
+    string courseCode;
+    cin.ignore();
+    getline(cin, courseCode);
+    Course* course = courseList.findCourse(courseCode);
+    if (course == nullptr) {
+        cout << "Course not found" << endl;
+        return 0;
+    }
+
+
+    int choice = showStudentsMenu(course, studentList, "enroll");
+    while (choice != 0) {
+        choice = showStudentsMenu(course, studentList, "enroll");
+    }
+
+    return 0;
+}
+
+int deEnrollStudent(StudentList& studentList, CourseList& courseList) {
+    courseList.printCourses();
+    cout << "Enter course code: ";
+    string courseCode;
+    cin.ignore();
+    getline(cin, courseCode);
+    Course* course = courseList.findCourse(courseCode);
+    if (course == nullptr) {
+        cout << "Course not found" << endl;
+        return 0;
+    }
+
+    int choice = showStudentsMenu(course, studentList, "de-enroll");
+    while (choice != 0) {
+        choice = showStudentsMenu(course, studentList, "de-enroll");
+    }
+
+    return 0;
+}
+
+void showMenu(StudentList& studentList, CourseList& courseList) {
     cout << "Please select an option:" << endl;
     cout << "1. Register a student" << endl;
     cout << "2. Register a course" << endl;
@@ -79,48 +194,50 @@ int showMenu() {
     switch (choice) {
         case 1:
             cout << "Register a student" << endl;
-            registerStudent();
-            showMenu();
+            registerStudent(studentList);
+            showMenu(studentList, courseList);
             break;
         case 2:
             cout << "Register a course" << endl;
             registerCourse();
-            showMenu();
+            showMenu(studentList, courseList);
             break;
         case 3:
             cout << "Enroll a student" << endl;
+            enrollStudent(studentList, courseList);
+            showMenu(studentList, courseList);
             break;
         case 4:
             cout << "De-enroll a student" << endl;
+            deEnrollStudent(studentList, courseList);
+            showMenu(studentList, courseList);
             break;
         case 5:
             cout << "Display courses" << endl;
+            courseList.printCourses();
+            printStudents(courseList);
+            showMenu(studentList, courseList);
             break;
         case 6:
-            cout << "Display students" << endl;
+            cout << "Display All Students" << endl;
+            studentList.printStudents();
+            showMenu(studentList, courseList);
             break;
         case 7:
             cout << "Exit" << endl;
             break;
         default:
             cout << "Invalid choice" << endl;
-            showMenu();
+            showMenu(studentList, courseList);
             break;
     }
 }
 
 int main() {
-    showMenu();
+    StudentList studentList;
+    CourseList courseList;
+    studentList.loadStudentsFromFile();
+    courseList.loadCoursesFromFile();
+    showMenu(studentList, courseList);
     return 0;
 }
-
-
-//1. Linked list for courses and students
-//2. new feature: waiting list - queue
-
-//1. Register an student
-//2. Register a course (with limit)
-//3. Enroll a student (over limit can do wait list)
-//4. De-enroll a student (if any student in wait list, enroll the student on first of the queue)
-//5. display courses
-//6. display students

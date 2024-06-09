@@ -1,2 +1,5 @@
 
-ocpp:S935n")non-void function does not return a value(æÀö€øÿÿÿÿ8Â‚Ùÿ1J$c0abe46e-5b2f-48b0-a692-862cde336fb9
+Š	cpp:S6004L"CUse the init-statement to declare "course" inside the if statement.(îĞœ“úÿÿÿÿ8ìÚ½ßÿ1J$e9f30af7-5168-4ba5-85e5-49ebbe0b2428
+`	cpp:S6004u"DUse the init-statement to declare "student" inside the if statement.(É²Ëª8Ú­³àÿ1
+\	cpp:S1238Z";Pass expensive to copy object "type" by reference to const.(°è¼ùÿÿÿÿ8Û­³àÿ1
+‚	cpp:S5350t"fMake the type of this variable a pointer-to-const. The current type of "student" is "class Student *".(Êº½ì8à­³àÿ1
