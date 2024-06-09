@@ -1,14 +1,14 @@
 
-	cpp:S52767"Wimplicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'(–Å¢÷ıÿÿÿÿ8›Á“ßÿ1J$ba3e57ed-7d5b-4325-b810-0f899c3bf843
-¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "head" in an initialization list.(˜¥€·8ÿãÏİÿ1J$4eebc021-283c-4b18-8b37-3668ca6feb69
-¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "tail" in an initialization list.(¢ı²ˆ8ÿãÏİÿ1J$55331c3e-438c-484a-8b47-2cde7992b66a
-¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "size" in an initialization list.(õéı8ÿãÏİÿ1J$7113ae53-53b3-4871-a46c-0448a268d846
-x	cpp:S1238"1Pass large object "course" by reference to const.(ÜÃ¼—şÿÿÿÿ8‚äÏİÿ1J$b48ad97d-9a50-4276-9795-d65de86b8b1a
-i	cpp:S5827"'Replace the redundant type with "auto".(—Ú¯8„äÏİÿ1J$5e5977b4-0689-4746-b7a7-45a9cd3d33e5
-“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(—Ú¯8„äÏİÿ1J$1cf29aaf-4cd2-4181-b35a-365eab4a1092
-{	cpp:S6185&"9Use std::format instead of concatenating pieces manually.(”•ş8¬Ô“ßÿ1J$f087d7c7-907b-41e0-b519-6b0e708b59d2
-n	cpp:S5827?"'Replace the redundant type with "auto".(˜™¡·øÿÿÿÿ8†ü®ßÿ1J$2fdf2ee2-168a-401c-993f-d355a03ffaf9
-ˆ	cpp:S1238F"APass expensive to copy object "courseCode" by reference to const.(ÚÑÏÿÿÿÿÿ8ñÕ¡ßÿ1J$1e659b6c-707b-4ac1-9076-ed5ed8359a22
-ˆ	cpp:S1238R"APass expensive to copy object "courseCode" by reference to const.(áï™šùÿÿÿÿ8¼¶¨ßÿ1J$1cb77d58-299e-4ca4-95ee-ea8c241288fe
-{	cpp:S5025\":Rewrite the code so that you no longer need this "delete".( Ô·}8ê×ßÿ1J$f6a05197-039e-45c7-8801-33537096909e
-|	cpp:S5025j":Rewrite the code so that you no longer need this "delete".(à±şñ8ë×ßÿ1J$dc5c60b0-ca0c-4aff-9d86-567e9e8602f2
+	cpp:S52767"Wimplicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'(–Å¢÷ıÿÿÿÿ8›Á“ßÿ1J$72a3f37b-259f-4922-b64b-0b2c24342b1f
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "head" in an initialization list.(˜¥€·8ÿãÏİÿ1J$21351a27-ec2a-4854-a12f-e521339f990a
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "tail" in an initialization list.(¢ı²ˆ8ÿãÏİÿ1J$fa15bfcc-280c-4afa-9011-a64cb747ab21
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "size" in an initialization list.(õéı8ÿãÏİÿ1J$f23d7fd9-1df4-425b-8fdd-7548adb8e4f9
+x	cpp:S1238"1Pass large object "course" by reference to const.(ÜÃ¼—şÿÿÿÿ8‚äÏİÿ1J$67384243-51e0-4809-9187-d2de53d01cb4
+i	cpp:S5827"'Replace the redundant type with "auto".(—Ú¯8„äÏİÿ1J$6d0ca962-00a1-48cb-9bd4-9047523c238d
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(—Ú¯8„äÏİÿ1J$f94eeff9-e0d5-468a-ba1b-732ad573be0f
+{	cpp:S6185&"9Use std::format instead of concatenating pieces manually.(”•ş8¬Ô“ßÿ1J$2966d442-5794-4cc0-84c9-8dca1f26c721
+n	cpp:S5827?"'Replace the redundant type with "auto".(˜™¡·øÿÿÿÿ8†ü®ßÿ1J$6d2ca282-37cb-4273-a9c3-ee177d40ddb7
+ˆ	cpp:S1238F"APass expensive to copy object "courseCode" by reference to const.(ÚÑÏÿÿÿÿÿ8ñÕ¡ßÿ1J$4d1c54e2-a957-45e5-a82f-f20028b9685d
+ˆ	cpp:S1238R"APass expensive to copy object "courseCode" by reference to const.(áï™šùÿÿÿÿ8¼¶¨ßÿ1J$a77246ce-3d9f-409c-bf17-ec84671816d8
+{	cpp:S5025\":Rewrite the code so that you no longer need this "delete".( Ô·}8ê×ßÿ1J$faa88caa-5497-4fde-b2a8-b39a1ca7ad03
+|	cpp:S5025j":Rewrite the code so that you no longer need this "delete".(à±şñ8ë×ßÿ1J$ba57ce72-6284-4138-88e3-8b6a8c34712f

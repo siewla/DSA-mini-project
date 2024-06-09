@@ -46,7 +46,7 @@ void CourseList::printCourses() {
 }
 
 void CourseList::loadCoursesFromFile() {
-    std::ifstream file("courses.txt");
+    std::ifstream file("../src/courses.txt");
     if (!file) {
         std::cout << "Error opening file" << std::endl;
     } else {

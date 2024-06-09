@@ -102,6 +102,14 @@
 				6,
 				8
 			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				9,
+				10
+			]
 		}
 	],
 	"sources" : 
@@ -155,6 +163,16 @@
 			"backtrace" : 1,
 			"path" : "src/courseList.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/courses.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/students.txt",
+			"sourceGroupIndex" : 2
 		}
 	],
 	"type" : "EXECUTABLE"

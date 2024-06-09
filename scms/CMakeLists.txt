@@ -12,4 +12,6 @@ add_executable(scms main.cpp
         src/studentList.h
         src/courseList.cpp
         src/courseList.h
+        src/courses.txt
+        src/students.txt
 )

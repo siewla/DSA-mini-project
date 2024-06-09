@@ -44,7 +44,8 @@ void StudentList::printStudents() {
 }
 
 void StudentList::loadStudentsFromFile() {
-    std::ifstream file("students.txt");
+    // get absolute path of the file
+    std::ifstream file("../src/students.txt");
     if (!file) {
         std::cout << "Error opening file" << std::endl;
     } else {

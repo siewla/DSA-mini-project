@@ -1,5 +1,5 @@
 
-Š	cpp:S6004L"CUse the init-statement to declare "course" inside the if statement.(îÐœ“úÿÿÿÿ8ìÚ½ßÿ1J$e9f30af7-5168-4ba5-85e5-49ebbe0b2428
-`	cpp:S6004u"DUse the init-statement to declare "student" inside the if statement.(É²Ëª8Ú­³àÿ1
-\	cpp:S1238Z";Pass expensive to copy object "type" by reference to const.(Ž°è¼ùÿÿÿÿ8Û­³àÿ1
-‚	cpp:S5350t"fMake the type of this variable a pointer-to-const. The current type of "student" is "class Student *".(Êº½ì8à­³àÿ1
+Š	cpp:S6004L"CUse the init-statement to declare "course" inside the if statement.(îÐœ“úÿÿÿÿ8ìÚ½ßÿ1J$8fa81c81-3c40-4759-b94e-420627056b1a
+†	cpp:S6004u"DUse the init-statement to declare "student" inside the if statement.(É²Ëª8Ú­³àÿ1J$e2d9921b-b80d-4a0b-ae4b-475d486c783b
+‚	cpp:S1238Z";Pass expensive to copy object "type" by reference to const.(Ž°è¼ùÿÿÿÿ8Û­³àÿ1J$bb13f25d-5b46-4fd4-821d-e9836df33e06
+¨	cpp:S5350t"fMake the type of this variable a pointer-to-const. The current type of "student" is "class Student *".(Êº½ì8à­³àÿ1J$49f6f4ab-1b74-49fc-b94d-14e8b4f82a72
