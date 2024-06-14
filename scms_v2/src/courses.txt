@@ -1,0 +1,5 @@
+Introduction to Python Programming,PY101,2,3
+Java Programming Fundamentals,JAVA102,2,4
+Web Development with JavaScript,JS200,4,4
+C++ Programming Basics,CPP201,4,3
+Data Structures and Algorithms in C++,CPP101,5,4

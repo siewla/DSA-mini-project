@@ -1,0 +1,11 @@
+# ninja log v5
+673	806	1717921692065779265	scms	d81837bf1158ebb0
+7	505	1717920650600206739	CMakeFiles/scms.dir/main.cpp.o	6d87a7c97be478d8
+2	168	1717904109462545679	CMakeFiles/scms.dir/src/registration.cpp.o	bab49984cd5e821f
+8	690	1717913272178688861	CMakeFiles/scms.dir/src/student.cpp.o	8969dbf7c66de8
+8	672	1717921691930567503	CMakeFiles/scms.dir/src/courseList.cpp.o	8d9814dcfa5039ba
+7	561	1717919668891885018	CMakeFiles/scms.dir/src/course.cpp.o	15cf3d02a6420af9
+4	66	1717921829717011729	build.ninja	f47ba6e5719dab6b
+7	628	1717921670434977683	CMakeFiles/scms.dir/src/studentList.cpp.o	2433ab6fafc41a67
+3	59	1717921829717011729	build.ninja	f47ba6e5719dab6b
+7	235	1717921843646641724	scms	d81837bf1158ebb0
