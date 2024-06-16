@@ -2,7 +2,7 @@
 #define SCMS_COURSE_H
 
 #include<iostream>
-#include "studentlist.h" // require StudentList reference
+#include "studentList.h" // require StudentList reference
 
 using std::string;
 //using std::ofstream;
