@@ -22,6 +22,12 @@ TODO
 4. finish the report
 **/
 
+// Helper function to convert string to uppercase
+string toUpperCase(const string& str) {
+    string upperStr = str;
+    std::transform(upperStr.begin(), upperStr.end(), upperStr.begin(), ::toupper);
+    return upperStr;
+}
 
 void registerStudent(StudentList& studentList) {
     // get student id, name, email and save it to "Student"
@@ -90,12 +96,12 @@ void registerCourse(CourseList& courseList) {
 
     cout <<"You have entered the following information: " << endl;
     cout << "Course Name        : " << courseName << endl;
-    cout << "Course Code        : " << courseCode << endl;
+    cout << "Course Code        : " << toUpperCase(courseCode) << endl;
     cout << "Course Slots       : " << courseSlots << endl;
     cout << "Course Credit Hours: " << courseCreditHours << endl;
 
     try { // to make sure Course inputs are correct
-        Course newCourse(courseName, courseCode, courseSlots, courseCreditHours, StudentList(), StudentList());
+        Course newCourse(courseName, toUpperCase(courseCode), courseSlots, courseCreditHours, StudentList(), StudentList());
         courseList.addCourse(newCourse);
         cout << "Course has been registered successfully" << endl;
     } catch (...) {
@@ -110,6 +116,8 @@ int printStudents(CourseList courseList) {
     cin.ignore();
     // trim leading and trailing whitespaces
     getline(cin, courseCode);
+    courseCode = toUpperCase(courseCode);
+    
     cout << "Course Code: " << courseCode << endl;
     Course* course = courseList.findCourse(courseCode);
 
@@ -198,6 +206,8 @@ int enrollStudent(StudentList& studentList, CourseList& courseList) {
     string courseCode;
     cin.ignore();
     getline(cin, courseCode);
+    courseCode = toUpperCase(courseCode);
+    
     Course* course = courseList.findCourse(courseCode);
     if (course == nullptr) {
         cout << "Course not found" << endl;
@@ -218,6 +228,8 @@ int deEnrollStudent(StudentList& studentList, CourseList& courseList) {
     string courseCode;
     cin.ignore();
     getline(cin, courseCode);
+    courseCode = toUpperCase(courseCode);
+    
     Course* course = courseList.findCourse(courseCode);
     if (course == nullptr) {
         cout << "Course not found" << endl;
