@@ -60,12 +60,12 @@ int Course::getCourseCreditHours() {
 }
 
 StudentList Course::getStudents() { // return studentlist class obj
-    std::cout << "student size is " << students.getSize() << "\n";
+//    std::cout << "student size is " << students.getSize() << "\n"; -> for debugging purposes
     return students;
 }
 
 StudentList Course::getWaitlist() { // return waiting list class obj
-    std::cout << "waitlist size is " << waitlist.getSize() << "\n";
+//    std::cout << "waitlist size is " << waitlist.getSize() << "\n"; -> for debugging purposes
     return waitlist;
 }
 
