@@ -317,8 +317,8 @@ int main() {
     CourseList courseList;
     studentList.loadStudentsFromFile();
     courseList.loadCoursesFromFile();
-    studentList.printStudents();
-    courseList.printCourses();
+//    studentList.printStudents();
+//    courseList.printCourses();
 
     // main
     showMenu(studentList, courseList);

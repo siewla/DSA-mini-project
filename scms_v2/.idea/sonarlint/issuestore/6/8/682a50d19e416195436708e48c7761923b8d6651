@@ -1,5 +1,12 @@
 
-Š	cpp:S6004L"CUse the init-statement to declare "course" inside the if statement.(îĞœ“úÿÿÿÿ8ìÚ½ßÿ1J$8fa81c81-3c40-4759-b94e-420627056b1a
-†	cpp:S6004u"DUse the init-statement to declare "student" inside the if statement.(É²Ëª8Ú­³àÿ1J$e2d9921b-b80d-4a0b-ae4b-475d486c783b
-‚	cpp:S1238Z";Pass expensive to copy object "type" by reference to const.(°è¼ùÿÿÿÿ8Û­³àÿ1J$bb13f25d-5b46-4fd4-821d-e9836df33e06
-¨	cpp:S5350t"fMake the type of this variable a pointer-to-const. The current type of "student" is "class Student *".(Êº½ì8à­³àÿ1J$49f6f4ab-1b74-49fc-b94d-14e8b4f82a72
+{	cpp:S1135"4Complete the task associated to this "TODO" comment.(Ù„ÂÄüÿÿÿÿ8æ¡ãˆ„2J$eb820b8b-0e29-4f48-9c74-f5b6ffdda249
+m	cpp:S6197"&Replace with "std::ranges::transform".(ª©£½ÿÿÿÿÿ8ë¤ãˆ„2J$8edcefa4-9859-401d-8d86-edfa72b6f5c8
+d	cpp:S2738>"""catch" a specific exception type.(¯ÒÄ¹8î¤ãˆ„2J$fbe54fab-c0d1-46dd-a646-6541e0ab9c2d
+d	cpp:S2738k"""catch" a specific exception type.(¯ÒÄ¹8ô¤ãˆ„2J$5bf05d4c-ea79-49be-b71a-e81bb7ae958f
+Š	cpp:S6004|"CUse the init-statement to declare "course" inside the if statement.(îĞœ“úÿÿÿÿ8ìÚ½ßÿ1J$e1944ca7-52b1-4161-b3e1-19ea1a99d726
+‡	cpp:S6004¯"DUse the init-statement to declare "student" inside the if statement.(É²Ëª8Ú­³àÿ1J$eda27d97-bf39-4413-89ea-52bb2b137749
+ƒ	cpp:S1238Š";Pass expensive to copy object "type" by reference to const.(°è¼ùÿÿÿÿ8Û­³àÿ1J$da196d18-d65d-44c1-9c99-8b09697b6cde
+”cpp:S134´"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(ÌŠÃõıÿÿÿÿ8€¥ãˆ„2J$b9903d1a-2d6a-4eaa-90ac-b9c313725623
+”cpp:S134»"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(·şˆ¿ûÿÿÿÿ8€¥ãˆ„2J$62ac7db0-bdd8-475a-9284-89b0f48180a1
+`cpp:S125·"Remove the commented out code.(À¸ıÓ8Ó¼ãˆ„2J$54f04f36-0f48-40bb-83a9-1612b42416fa
+?cpp:S125À"Remove the commented out code.(ùÄ²üÿÿÿÿ8Š…îˆ„2

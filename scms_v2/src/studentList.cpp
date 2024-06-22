@@ -123,8 +123,8 @@ void StudentList::loadStudentsFromFile() {
     get data from file
     */
     // get absolute path of the file
-    //std::ifstream file("../src/students.txt"); // mac
-    std::ifstream file(".\\src\\students.txt"); // windows
+    std::ifstream file("../src/students.txt"); // mac
+//    std::ifstream file(".\\src\\students.txt"); // windows
     if (!file) {
         std::cout << "Error opening file" << std::endl;
     } else {

@@ -35,6 +35,8 @@ The class diagram represents the structure of the system in terms of classes, th
 
 ![UMLDiagram](uml-design.png)
 
+
 ### SYSTEM PROTOTYPE
 
 A prototype will be developed to demonstrate the core functionalities of the system.
+![Flow](flow.gif)

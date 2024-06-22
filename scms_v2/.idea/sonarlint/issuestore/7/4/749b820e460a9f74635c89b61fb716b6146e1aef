@@ -1,14 +1,20 @@
 
-ž	cpp:S52767"Wimplicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'(–Å¢÷ýÿÿÿÿ8›Á“ßÿ1J$72a3f37b-259f-4922-b64b-0b2c24342b1f
-¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "head" in an initialization list.(˜¥€·8ÿãÏÝÿ1J$21351a27-ec2a-4854-a12f-e521339f990a
-¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "tail" in an initialization list.(¢ý²ˆ8ÿãÏÝÿ1J$fa15bfcc-280c-4afa-9011-a64cb747ab21
-¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "size" in an initialization list.(õéžý8ÿãÏÝÿ1J$f23d7fd9-1df4-425b-8fdd-7548adb8e4f9
-x	cpp:S1238"1Pass large object "course" by reference to const.(ÜÃ¼—þÿÿÿÿ8‚äÏÝÿ1J$67384243-51e0-4809-9187-d2de53d01cb4
-i	cpp:S5827"'Replace the redundant type with "auto".(—žÚ¯8„äÏÝÿ1J$6d0ca962-00a1-48cb-9bd4-9047523c238d
-“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(—žÚ¯8„äÏÝÿ1J$f94eeff9-e0d5-468a-ba1b-732ad573be0f
-{	cpp:S6185&"9Use std::format instead of concatenating pieces manually.(”•þ8¬Ô“ßÿ1J$2966d442-5794-4cc0-84c9-8dca1f26c721
-n	cpp:S5827?"'Replace the redundant type with "auto".(˜™¡·øÿÿÿÿ8†ü®ßÿ1J$6d2ca282-37cb-4273-a9c3-ee177d40ddb7
-ˆ	cpp:S1238F"APass expensive to copy object "courseCode" by reference to const.(ÚÑÏÿÿÿÿÿ8ñÕ¡ßÿ1J$4d1c54e2-a957-45e5-a82f-f20028b9685d
-ˆ	cpp:S1238R"APass expensive to copy object "courseCode" by reference to const.(áï™šùÿÿÿÿ8¼¶¨ßÿ1J$a77246ce-3d9f-409c-bf17-ec84671816d8
-{	cpp:S5025\":Rewrite the code so that you no longer need this "delete".( Ô·}8ê×žßÿ1J$faa88caa-5497-4fde-b2a8-b39a1ca7ad03
-|	cpp:S5025j":Rewrite the code so that you no longer need this "delete".(à±þñ8ë×žßÿ1J$ba57ce72-6284-4138-88e3-8b6a8c34712f
+ž	cpp:S5276y"Wimplicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'int'(–Å¢÷ýÿÿÿÿ8›Á“ßÿ1J$b73a7ef6-3bf2-48ea-8a55-e69fc41a138d
+g	cpp:S1117Ž"$declaration shadows a local variable(Íô­«8¹ÔÝˆ„2J$d49199f3-a50f-468f-b4de-6c39492b8b60
+\	cpp:S1481Œ"unused variable 'current'(Íô­«8ºÔÝˆ„2J$32c80d90-0071-4fa8-8195-3e6757b129d5
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "head" in an initialization list.(˜¥€·8ÿãÏÝÿ1J$5be9e665-dfae-438b-b407-e63256944fb8
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "tail" in an initialization list.(¢ý²ˆ8ÿãÏÝÿ1J$1164122d-53d3-4738-ad27-cd414a86a56f
+¢	cpp:S3230"`Do not assign data members in a constructor. Initialize member "size" in an initialization list.(õéžý8ÿãÏÝÿ1J$2f99d68f-1936-44bb-b220-72672ed6984d
+i	cpp:S5827"'Replace the redundant type with "auto".(—žÚ¯8„äÏÝÿ1J$42d31a11-e094-41dc-b245-5ba59e7f4f24
+“	cpp:S5025"QReplace the use of "new" with an operation that automatically manages the memory.(—žÚ¯8„äÏÝÿ1J$73d16df0-c84d-42c1-906d-3afd579b9ea1
+ƒ	cpp:S1238"APass expensive to copy object "courseCode" by reference to const.(Éåõ8ÉÔÝˆ„2J$8e1569b5-3140-46fe-b30e-7edb934a61eb
+“cpp:S134)"MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(Ó«ÿøþÿÿÿÿ8ÊÔÝˆ„2J$02eb7c29-8aab-40fd-ba25-dd4881b1eba2
+“cpp:S134."MRefactor this code to not nest more than 3 if|for|do|while|switch statements.(´·çüÿÿÿÿ8ËÔÝˆ„2J$32317ace-444f-4cb5-97d4-95556772d1cd
+{	cpp:S50252":Rewrite the code so that you no longer need this "delete".( Ô·}8ê×žßÿ1J$88c4220c-99ec-444b-a932-d4ce5fc6fad9
+{	cpp:S5025H":Rewrite the code so that you no longer need this "delete".( Ô·}8ÌÔÝˆ„2J$2a095eab-ff34-45d3-89d6-2bae9fae47b1
+ˆ	cpp:S1238Q"APass expensive to copy object "courseCode" by reference to const.(ÚÑÏÿÿÿÿÿ8ñÕ¡ßÿ1J$595ee388-73ac-42cf-a046-68cf5563a857
+{	cpp:S6185g"9Use std::format instead of concatenating pieces manually.(”•þ8¬Ô“ßÿ1J$9c03f36c-23fd-47db-9721-d2a980a075cc
+o	cpp:S5827"'Replace the redundant type with "auto".(˜™¡·øÿÿÿÿ8†ü®ßÿ1J$5b3bb64f-2d42-46ce-956f-9aae1dc7a66a
+­	cpp:S5350Œ"jMake the type of this variable a pointer-to-const. The current type of "current" is "struct courseNode *".(Íô­«8ÞÔÝˆ„2J$63c3d191-395a-4acb-b83a-396ab8ec4f6a
+„	cpp:S1854Œ"AValue stored to 'current' during its initialization is never read(Íô­«8§åÝˆ„2J$835c3a84-b141-4b7b-9441-21b7128b37fd
+>cpp:S125s"Remove the commented out code.(Ë¸•Èøÿÿÿÿ8š¹Þˆ„2
