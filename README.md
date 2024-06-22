@@ -2,7 +2,7 @@
 
 # Student Course Management System
 
-### PART 1: INTRODUCTION
+### INTRODUCTION
 
 #### Synopsis Project
 
@@ -12,7 +12,7 @@ The project aims to develop a text-based application in C++ that manages course 
 
 The objective is to implement a system that efficiently handles student enrollments and course registrations, while utilizing fundamental data structures such as linked lists and queues.
 
-### PART 2: SYSTEM ANALYSIS AND DESIGN (USE CASE, FLOWCHART AND CLASS DIAGRAM)
+### SYSTEM ANALYSIS AND DESIGN (USE CASE, FLOWCHART AND CLASS DIAGRAM)
 
 #### System Requirements
 
@@ -31,6 +31,10 @@ The system will be menu-driven, offering options for each functionality mentione
 
 The class diagram represents the structure of the system in terms of classes, their attributes, methods, and relationships. It illustrates how different entities such as students, courses, and registrations are modeled in the system.
 
-### PART 3: SYSTEM PROTOTYPE
+### UML Diagram
+
+![UMLDiagram](uml-design.png)
+
+### SYSTEM PROTOTYPE
 
 A prototype will be developed to demonstrate the core functionalities of the system.
