@@ -52,7 +52,7 @@ bool StudentList::deleteStudent(int matrixNumber) {
                 }
             }
             delete current;
-            std::cout << "student deleted\n";
+//            std::cout << "student deleted\n"; -- for debugging
             size--;
             return true; // if successfully removed
         }
