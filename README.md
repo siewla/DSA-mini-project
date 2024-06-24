@@ -2,9 +2,6 @@
 
 # Student Course Management System
 
-[![Presentation](https://img.youtube.com/vi/SamTan/0.jpg)](https://www.youtube.com/watch?v=xL63EeQCwH4)
-
-
 ### INTRODUCTION
 
 #### Synopsis Project
@@ -37,7 +34,6 @@ The class diagram represents the structure of the system in terms of classes, th
 ### UML Diagram
 
 ![UMLDiagram](uml-design.png)
-
 
 ### SYSTEM PROTOTYPE
 
