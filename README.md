@@ -1,6 +1,7 @@
 ## MECS0023 DSA - MINI PROJECT SPECIFICATION
 
 # Student Course Management System
+https://www.youtube.com/watch?v=JGYGCP0yoZg&feature=youtu.be
 
 ### INTRODUCTION
 
